@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profiles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Success IT Team</h1>
+    </header>
+    <main>
+        <div class="profile" id="boss">
+            <img src="BOSS.jpeg" alt="Boss Picture">
+            <h2>Boss</h2>
+            <div class="profile-content">
+                <button onclick="showDetails('boss')">View Details</button>
+            </div>
+        </div>
+        <div class="profile" id="employee1">
+            <img src="murad caca.jpg" alt="Employee 1 Picture">
+            <h2>MANAGER</h2>
+            <button onclick="showDetails('employee1')">View Details</button>
+        </div>
+        <div class="profile" id="employee2">
+            <img src="alip vai.jpg" alt="Employee 2 Picture">
+            <h2>STRIKER</h2>
+            <button onclick="showDetails('employee2')">View Details</button>
+        </div>
+        <div class="profile" id="employee3">
+            <img src="mama.jpg" alt="Employee 3 Picture">
+            <h2>STRIKER</h2>
+            <button onclick="showDetails('employee3')">View Details</button>
+        </div>
+        <div class="profile" id="employee4">
+            <img src="rohim vi.jpg" alt="Employee 4 Picture">
+            <h2>MIDFIELDER</h2>
+            <button onclick="showDetails('employee4')">View Details</button>
+        </div>
+        <div class="profile" id="employee5">
+            <img src="bosu vaiiii.jpg" alt="Employee 5 Picture">
+            <h2>MIDFIELDER</h2>
+            <button onclick="showDetails('employee5')">View Details</button>
+        </div>
+        <div class="profile" id="employee6">
+            <img src="sourov vi.jpg" alt="Employee 6 Picture">
+            <h2>MIDFIELDER</h2>
+            <button onclick="showDetails('employee6')">View Details</button>
+        </div>
+        <div class="profile" id="employee7">
+            <img src="sojib vi 2.jpg" alt="Employee 7 Picture">
+            <h2>MIDFIELDER</h2>
+            <button onclick="showDetails('employee7')">View Details</button>
+        </div>
+        <div class="profile" id="employee8">
+            <img src="sm vai.jpg" alt="Employee 8 Picture">
+            <h2>MIDFIELDER</h2>
+            <button onclick="showDetails('employee8')">View Details</button>
+        </div>
+        <div class="profile" id="employee9">
+            <img src="roman bro.jpg" alt="Employee 9 Picture">
+            <h2>DEFENDER</h2>
+            <button onclick="showDetails('employee9')">View Details</button>
+        </div>
+        <div class="profile" id="employee10">
+            <img src="caca.jpg" alt="Employee 10 Picture">
+            <h2>DEFENDER</h2>
+            <button onclick="showDetails('employee10')">View Details</button>
+        </div>
+        <div class="profile" id="employee11">
+            <img src="ridoy.jpg" alt="Employee 11 Picture">
+            <h2>DEFENDER</h2>
+            <button onclick="showDetails('employee11')">View Details</button>
+        </div>
+        <!-- Repeat for each employee -->
+        <div class="profile" id="employee12">
+            <img src="me.jpg" alt="Employee 12 Picture">
+            <h2>WATER BOY</h2>
+            <button onclick="showDetails('employee12')">View Details</button>
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div id="profile-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
